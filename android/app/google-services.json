@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1060943160611",
+    "project_id": "sathi-app-6d334",
+    "storage_bucket": "sathi-app-6d334.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060943160611:android:f41c764c26f94eef7a5896",
+        "android_client_info": {
+          "package_name": "com.example.sathi_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060943160611-c11bos5naigkuafovsk6o1d8hlo98aa7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1YiMZQDYaMpN-ae3HKrYIoraFuyFSeSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060943160611-c11bos5naigkuafovsk6o1d8hlo98aa7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1060943160611-ngf3hfguihlvrjqbsmgcbqmrkou99qma.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sathiApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
