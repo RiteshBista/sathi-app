@@ -6,7 +6,7 @@ import 'package:sathi_app/newlogin.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'dart:async';
 import 'service/firebase_options.dart';
-import 'Screen/homepage.dart';
+import 'screen/homepage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
