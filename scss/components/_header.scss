@@ -1,0 +1,43 @@
+header {
+  nav {
+    transition: all 0.2s;
+    a.navbar-brand {
+      @include formatText(37px, 600, 36px, $logoColor);
+      color: $logoColor !important;
+      text-shadow: 0.5px 0.5px rgba(19, 21, 26, 0.527);
+    }
+    button.navbar-toggler {
+      outline: none;
+    }
+    ul.navbar-nav{
+      li.nav-item{
+          a.nav-link{
+              @include formatText(16px, 400, 20px, $navColor);
+              padding-left: 20px;
+              &:hover{
+                  color: $logoColor;
+              }
+          }
+          a.nav-link.active{
+              color: $logoColor;
+          }
+      }    
+  }
+  }
+  nav.bg-light {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.137),
+      0 6px 20px 0 rgba(0, 0, 0, 0.041);
+  }
+}
+
+@media (max-width: 991px) {
+  nav {
+    ul.navbar-nav {
+      li.nav-item {
+        a.nav-link {
+          padding-left: 0px !important;
+        }
+      }
+    }
+  }
+}

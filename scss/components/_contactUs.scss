@@ -1,0 +1,50 @@
+.contact {
+  margin: 60px 0;
+  padding-top: 80px;
+
+  h1 {
+    font-size: 52px;
+    text-align: center;
+    background-color: $primaryColor-light;
+    display: inline-block;
+    padding: 6.5px 22px;
+    margin-bottom: 75px;
+  }
+  .contact-label {
+    border: none;
+    padding: 24px 22px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    background: #e4e4e4dc;
+    font-size: 14px;
+    box-shadow: 1px 1px 5px rgba(199, 198, 198, 0.212);
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .contact-button {
+    padding: 20px 35px;
+    width: 200px;
+    font-family: "Arial Narrow Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: 4.5px solid rgb(41, 40, 40);
+    background-color: white;
+    transition: 0.4s ease-out;
+    &:hover {
+      background-color: $primaryColor-light;
+    }
+  }
+  .contact-icons-bar {
+    margin: auto;
+    width: 77px;
+    padding: 18px 18px;
+    background-color: #222222;
+    font-size: 24px;
+    margin-top: 8px;
+    .icon-side span {
+      &:hover {
+        color: $primaryColor-light;
+      }
+    }
+  }
+}

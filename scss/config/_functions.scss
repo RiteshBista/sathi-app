@@ -1,0 +1,6 @@
+@mixin formatText( $size, $weight, $height, $fontcolor) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+    color: $fontcolor;
+}

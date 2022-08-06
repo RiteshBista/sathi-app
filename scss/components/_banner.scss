@@ -1,0 +1,41 @@
+.banner {
+  position: relative;
+  background: linear-gradient($bannerGradientStartColor, $bannerGradientEndColor);
+  // background-image: url("../assets/images/banner/Starry.jpg");
+  // background-size: cover;
+
+  padding-top: 56px;
+  height: 95vh;
+  .banner-text {
+    h1{
+      @include formatText(48px, 500, 60px, $headingColor);
+  }
+  a{
+      @include formatText(18px, 500, 32px, $bannerActionColor);
+      display: inline-block;
+      padding-top: 20px;
+      text-decoration: none;
+  }
+  }
+  .banner-image-box {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    .banner-text {
+      h1 {
+        @include formatText(40px, 500, 50px, $headingColor);
+      }
+      a {
+        @include formatText(16px, 500, 20px, $bannerActionColor);
+        display: inline-block;
+        padding-top: 20px;
+        text-decoration: none;
+      }
+    }
+  }
+}
