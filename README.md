@@ -1,6 +1,6 @@
-# sathi_app
+# Sathi
 
-A new Flutter project.
+A reliable companion to help you in your diabetes care.
 
 ## Getting Started
 
