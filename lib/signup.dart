@@ -34,16 +34,14 @@ class _SignupPageState extends State<SignupPage> {
             padding: EdgeInsets.all(16.0),
             child: Column(
               children: [
-                SizedBox(height: 70),
-                // Image(
-                //   alignment: Alignment.center,
-                //   height: 100.0,
-                //   width: 100.0,
-                //   image: AssetImage('lib/assets/images/logo.png'),
-                // ),
-                SizedBox(height: 70),
+                Image(
+                  alignment: Alignment.center,
+                  height: 300.0,
+                  width: 300.0,
+                  image: AssetImage('assets/images/1.png'),
+                ),
                 Text(
-                  "Sign In",
+                  "Sign Up",
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 25, fontFamily: 'Brand-Bold'),
                 ),
@@ -86,7 +84,7 @@ class _SignupPageState extends State<SignupPage> {
                         style: TextStyle(fontSize: 14),
                       ),
                       SizedBox(height: 40),
-                      TextButton(
+                      ElevatedButton(
                         onPressed: signUp,
                         child: Text('Signup'),
                       )
@@ -120,7 +118,7 @@ class _SignupPageState extends State<SignupPage> {
                         style: TextStyle(
                           color: Colors.black,
                         ),
-                        text: 'Don\'t have an account?',
+                        text: 'Already have an account?',
                         children: [
                       TextSpan(
                           recognizer: TapGestureRecognizer()
