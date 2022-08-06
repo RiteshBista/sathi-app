@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:sathi_app/main.dart';
 import 'package:email_validator/email_validator.dart';
+import 'package:sathi_app/screen/adddetails.dart';
 import 'Utils.dart';
 
 class SignupPage extends StatefulWidget {
@@ -142,13 +142,18 @@ class _SignupPageState extends State<SignupPage> {
         barrierDismissible: false,
         builder: (context) => Center(child: CircularProgressIndicator()));
     try {
-      await FirebaseAuth.instance.createUserWithEmailAndPassword(
+      final user = await FirebaseAuth.instance.createUserWithEmailAndPassword(
         email: _email.text.trim(),
         password: _password.text.trim(),
       );
+      // createUserDocument(user);
     } on FirebaseException catch (error) {
       Utils.showSnackBar(error.message);
     }
-    navigatorkey.currentState!.popUntil((route) => route.isFirst);
+    Navigator.push(context,
+                MaterialPageRoute(builder: (context) => AddDetails()));
+    // navigatorkey.currentState!.popUntil((route) => route.isFirst);
   }
+
+  
 }

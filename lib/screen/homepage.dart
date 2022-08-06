@@ -9,12 +9,6 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class sathi_user {
-  String name = "";
-  String email = "";
-  bool type = false;
-}
-
 class _MyHomePageState extends State<MyHomePage> {
   var name = "Suban";
   CollectionReference users = FirebaseFirestore.instance.collection('users');
@@ -46,6 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
               return Text('loading');
             }),
           ),
+          	
           TextButton(
               onPressed: () {
                 FirebaseAuth.instance.signOut();
