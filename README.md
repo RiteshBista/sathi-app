@@ -9,7 +9,7 @@ Type 1 diabetes affects 9 million people worldwide. Among them 24% forget their 
 <img src = "https://github.com/RiteshBista/sathi-app/blob/ghpages/assets/images/whySlides/1.png" width="500"></a>
 
 ## Technologies we used
-[`Flutter`] [`Firebase`] [`Twilo`]
+`Flutter` `Firebase` `Twilo`
 
 ## Getting Started
 
@@ -29,3 +29,8 @@ Click on the image below for set up and usage instructions!
 
 <p align="left"><a href = "https://github.com/RiteshBista/sathi-app/blob/documentation/installation.md">
 <img src = "https://github.com/RiteshBista/sathi-app/blob/master/assets/installation.png" width="400"></a></p>
+
+## Our Team
+* Ritesh Bista ([@RiteshBista](https://github.com/RiteshBista))
+* Suban Shrestha ([@suban244](https://github.com/suban244))
+* Yunika Bajracharya ([@Yunika-Bajracharya](https://github.com/Yunika-Bajracharya))
