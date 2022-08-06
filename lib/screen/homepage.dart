@@ -13,6 +13,10 @@ class _MyHomePageState extends State<MyHomePage> {
   var name = "Suban";
   CollectionReference users = FirebaseFirestore.instance.collection('users');
 
+  void onClickNotification(String? payload) {
+    // Navigator.of(context).push(route)
+  }
+
   @override
   Widget build(BuildContext context) {
     final user = FirebaseAuth.instance.currentUser;
